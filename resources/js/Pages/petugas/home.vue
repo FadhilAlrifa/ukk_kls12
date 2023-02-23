@@ -3,7 +3,7 @@
     <v-btn  @click="tableToExcel('table', 'Lorem Table')">Download</v-btn>
 </div>
   <v-table>
-    <thead>
+    <thead class='bg-blue text-subtitle-1'>
         <tr>
             <th>#</th>
             <th>NIK</th>

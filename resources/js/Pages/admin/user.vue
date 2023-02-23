@@ -5,7 +5,7 @@
         </v-btn>
     </div>
     <v-table class="mx-10 my-10">
-        <thead class="bg-green">
+        <thead class="bg-blue">
             <tr>
                 <th>#</th>
                 <th>Nama</th>
@@ -25,7 +25,7 @@
                 <td>{{ row.tlp }}</td>
                 <td>{{ row.level }}</td>
                 <td>
-                    <v-btn size="small" icon="mdi-pencil" color="grey" class="mr-3" @click="edit(row.id)">
+                    <v-btn size="small" icon="mdi-pencil" color="green" class="mr-3" @click="edit(row.id)">
                     </v-btn>
                     <v-btn size="small" icon="mdi mdi-delete-forever" color="red" @click="konfirmasi(row.id)">
                     </v-btn>

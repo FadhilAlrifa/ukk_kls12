@@ -18,7 +18,7 @@
                         </v-list-item-subtitle>
 
                         <v-list-item-subtitle>
-                            <v-btn class="mt-3" color="green" @click="tampilkan">Tanggapan</v-btn>
+                            <v-btn class="mt-3" color="blue" @click="tampilkan">Tanggapan</v-btn>
                             <v-sheet v-show="tampil" class="mx-auto" height="100" width="100">aswrwb</v-sheet>
                         </v-list-item-subtitle>
                         <v-divider class="mt-3" />
